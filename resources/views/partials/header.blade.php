@@ -3,7 +3,10 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-2 align-items-center">
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo">
+                <div class="img-container">
+                    <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Logo">
+
+                </div>
             </div>
             <div class="col d-flex justify-content-end ">
                 <nav>

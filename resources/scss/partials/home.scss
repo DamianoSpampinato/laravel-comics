@@ -1,3 +1,15 @@
+
+.bg-black{
+    background-color: black;
+}
+.title{
+    position: relative;
+    top: -30px;
+    width: fit-content
+}
+.load-more{
+    width: fit-content;
+}
 .ms-card{
     height: 100%;
     .img-container{
@@ -5,6 +17,18 @@
         overflow-y: hidden;
         img{
             width: 100%;
+        }
+    }
+}
+#features{
+    .feat{
+
+        height: 80px;
+        .img-container{
+            height: 100%;
+            img{
+                height: 100%;
+            }
         }
     }
 }
