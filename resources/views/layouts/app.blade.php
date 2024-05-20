@@ -17,14 +17,13 @@
 
 <body>
     @include('partials.header')
+    
 
     <main>
         @yield('content')
     </main>
 
-    <footer>
-        Ciao sono il footer
-    </footer>
+    @include('partials.footer')
 
 </body>
 
